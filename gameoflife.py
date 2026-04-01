@@ -70,7 +70,7 @@ def getDisplayGrid(grid, fps):
 
 
 
-gridsize = 120, 120
+gridsize = 200, 200
 grid = createGrid()
 
 
