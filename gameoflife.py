@@ -34,6 +34,7 @@ def updateGrid(grid):
             # check each neighboring tile
             for dy in (-1, 0, 1):
                 for dx in (-1, 0, 1):
+                    # don't count current tile as a neighbor
                     if dy == 0 and dx == 0:
                         continue
 
